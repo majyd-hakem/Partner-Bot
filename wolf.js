@@ -44,8 +44,6 @@ client.on("ready", () => {
 client.on('ready' , () => {
 var join = client.channels.get("id voice")/// ئاید ڤۆیس
 if (join) join.join()
- 
- 
 })
  
  
