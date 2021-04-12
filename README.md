@@ -1,2 +1,1 @@
-# Partner-Bot
-Partner By Wolf
+# **Partner By Wolf**
