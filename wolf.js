@@ -40,14 +40,67 @@ client.on("ready", () => {
     });
   }, 3000);
 });
+
+//////
+client.on("message", msg => {
+  if (msg.content === "REKLAM") {
+    msg.reply(
+      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+    );
+  }
+});
+
+///////
+ client.on("message", msg => {
+  if (msg.content === "Reklam") {
+    msg.reply(
+      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+    );
+  }
+});
+
+//////
+client.on("message", msg => {
+  if (msg.content === "reklam") {
+    msg.reply(
+      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+    );
+  }
+});
+
+////////
+client.on("message", msg => {
+  if (msg.content === "Reklam?") {
+    msg.reply(
+      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+    );
+  }
+});
+
+////////
+client.on("message", msg => {
+  if (msg.content === "سڵاو ڕیکلام ئەگوڕنەوە") {
+    msg.reply(
+      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+    );
+  }
+});
+
+////////
+client.on("message", msg => {
+  if (msg.content === "ڕیکلام") {
+    msg.reply(
+      "بــنــێــرە بــۆ مـــن گـــیــان"
+    );
+  }
+});
+
 /// REKLAM ///
 client.on('ready' , () => {
 var join = client.channels.get("id voice")/// ئاید ڤۆیس
 if (join) join.join()
 })
- 
- 
- 
+
 client.on("message" , message => {
  
 if(message.channel.type === 'dm') {
