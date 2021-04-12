@@ -107,13 +107,13 @@ if(message.channel.type === 'dm') {
  
 if (message.content.startsWith("https://discord.gg/")) {
  
-  message.author.send(`> https://discord.gg/7neDtz4bps`)/// لینکە سیرڤەرە خۆت
+  message.author.send(`> link server`)/// لینکە سیرڤەرە خۆت
  
-  client.channels.get("815550589097607170").send(
+  client.channels.get("id text").send(
 `> Nerdra la layan <@${message.author.id}> 
 ${message.content}`)
 }
     }
         })
 
-client.login("ODIyMTQ1MTQxMjMzOTQyNTUz.YFOAVA.pXi5RGpVW5Tz42qpcI_Vzr0epFg");
+client.login("");
