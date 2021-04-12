@@ -22,7 +22,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const data = new Map();
 
-client.login(process.env.token);
 
 client.on("ready", () => {
   console.log(
@@ -66,4 +65,4 @@ ${message.content}`)
     }
         })
 
-client.login("");
+client.login("ODIyMTQ1MTQxMjMzOTQyNTUz.YFOAVA.pXi5RGpVW5Tz42qpcI_Vzr0epFg");
